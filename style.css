@@ -1,0 +1,75 @@
+/* ===== Paleta =====
+   Rojo     #D62828
+   Naranja  #F77F00
+   Amarillo #FCBF49
+   Blanco   #EAE2B7
+   Fondo    #08090A (oscuro industrial)
+======================== */
+
+/* Fondo global oscuro */
+body, .stApp {
+    background-color: #08090A !important;   /* gris carbón */
+    color: #EAE2B7 !important;              /* blanco cálido */
+}
+
+/* Área principal */
+.main, .block-container {
+    background-color: #08090A !important;
+}
+
+/* Sidebar */
+.css-1d391kg, .css-1lcbmhc, .css-1ydp05j {
+    background-color: #111418 !important;   /* gris oscuro elegante */
+}
+
+/* Títulos generales */
+h1, h2, h3, h4 {
+    color: #F77F00 !important;   /* naranja acento */
+    font-weight: 700 !important;
+}
+
+/* Título principal rojo */
+.titulo-principal {
+    color: #D62828 !important;   /* rojo */
+    font-weight: 800 !important;
+    margin-bottom: -10px !important;
+}
+
+/* Subtítulo naranja */
+.subtitulo {
+    color: #F77F00 !important;   /* naranja */
+    font-weight: 600 !important;
+}
+
+
+/* Tablas Streamlit */
+.dataframe {
+    background-color: #1a1a1a !important;
+    color: white !important;
+}
+
+/* Sidebar */
+.css-1d391kg, .css-1lcbmhc {
+    background-color: #1a1a1a !important;
+    color: #EAE2B7 !important;
+}
+
+/* Sliders */
+.stSlider > div > div > div > div {
+    background: linear-gradient(90deg, #D62828, #F77F00, #FCBF49) !important;
+}
+
+/* Selectbox */
+.stSelectbox label {
+    color: #EAE2B7 !important;
+}
+
+/* Inputs del sidebar */
+.stNumberInput label {
+    color: #EAE2B7 !important;
+}
+
+/* Textos */
+p, label, span {
+    color: #EAE2B7 !important;
+}
